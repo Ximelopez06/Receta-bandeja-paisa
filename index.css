@@ -1,0 +1,94 @@
+body{
+    background-color: #f3f4f5;
+    margin: 0 auto;
+}
+.header{
+    border: 5pxpx solid white;
+    background-color:yellow;
+}
+.header__menu{
+    color:black;
+    font-family: arial;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.header__menu ul{
+    display: flex;
+}
+.header__menu li{
+    display: inherit;
+} 
+.header__menu a{
+    text-decoration: black;
+    color: black;
+    padding:10px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.header__menu a:hover{
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+}
+.container{
+    width: 1000px;
+    margin: 0 auto;
+}
+.banner{
+    color: black;
+    background-color:#f3f4f5;
+}
+.banner .banner__hero{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.banner__text-hero{
+    padding: 80px 0 0 80px;
+    font-family: georgia;
+    font-size: 18px;
+    color: #757575;
+}
+.title{
+    background-color: rgb(151, 215, 235);
+    font-family: arial ;
+    font-size: 24px;
+    border-left: 6px solid black;
+}
+.ingredientes{
+    margin: 100px;
+
+}
+.ingredientes__box{
+    margin: 15px;
+    box-shadow:  0px 1px 8px 2px rgb(233, 72, 72);
+    border-radius: 10px;
+    display: flex;
+    font-family: Georgia;
+    font-size: 18px;
+    color: #757575;
+}
+.ingredientes__box img{
+    border-radius: 10px;
+}
+.ingredientes__body{
+    box-shadow: 0px 10px 10px 2px rgb(209, 33, 33);
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.footer{
+    color: white;
+    background-color: rgb(50, 84, 156);
+}
+.footer__sections{
+    padding: 3px;
+}
+.copyrigt p {
+    background-color: burlywood;
+    color:black;
+    font-family: italic;
+    text-align: center;
+}
